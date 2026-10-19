@@ -1,0 +1,23 @@
+/caches/
+/debug/
+/dinov3/
+/test/
+/.idea/
+/.vscode/
+__pycache__/
+/dino_checkpoints/
+/targets/
+/results/
+/results_old/
+/.venv/
+/.pytest_cache/
+*.egg-info/
+
+# 权重 / 大文件（SAM2 checkpoint、YOLO 权重、光流与 mask 缓存等一律不入库）
+*.pt
+*.pth
+*.onnx
+
+# 个人材料（面试笔记等不入库）
+docs/interview_notes.md
+sam2_git/

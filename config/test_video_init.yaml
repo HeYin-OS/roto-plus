@@ -1,0 +1,3 @@
+video:
+  url_head: "./targets/images/bear"
+  format: jpg
